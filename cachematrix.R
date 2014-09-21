@@ -47,7 +47,7 @@ cacheSolve <- function(x, ...) {
     ## function.  This function does not check to see if the matrix is invertable. (as per instructions)
     
     ## Attempt to get the inverse from the cache
-    ## (It will be null if doesn't exist, or the cacehd matrix has been changed via set function.)
+    ## (It will be null if doesn't exist, or the cached matrix has been changed via set function.)
     inv <- x$getinv()
     if(!is.null(inv)) {
         message('gettingcached data')
